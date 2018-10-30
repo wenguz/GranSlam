@@ -9,7 +9,7 @@ Hello World
 </head>
 <body>
 <h2>
-Menu para Gestionar el torneo Gran Slam
+Menu para Gestionar el torneo GRAN SLAM- MENU
 </h2>
 <%= session.getAttribute("ini.usu")%>
 <html:form action="/menu">

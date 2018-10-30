@@ -11,7 +11,7 @@ Hello World
 </head>
 <body>
 <h2>
-Lista de Partidos
+Lista de Partidos- PRTIDOS Y JUGADORES
 </h2>
 <html:form action="/listarP">
 <table  cellspacing="2" cellpadding="1" border="1" width="60%" align="center">

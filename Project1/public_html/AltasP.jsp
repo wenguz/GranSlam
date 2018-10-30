@@ -19,6 +19,10 @@ Registrar Partidos
 se utiliza el key para identificar el campo que se etiquetara: ej
 altas_j.nom=Nombre Jugador-->
 <tr>
+    <td><bean:message key="altp.cod" />:</td>
+    <td><html:text property="cod_partido" /></td>
+</tr>
+<tr>
     <td><bean:message key="altp.fecha" />:</td>
     <td><html:text property="fecha" /></td>
 </tr>

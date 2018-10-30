@@ -397,7 +397,7 @@ public class _Bueno extends oracle.jsp.runtime.HttpJsp {
       text[0] = 
       "\n".toCharArray();
       text[1] = 
-      "\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\n<title>\nHello World\n</title>\n</head>\n<body>\n<h2>\nMenu para Gestionar el torneo Gran Slam\n</h2>\n".toCharArray();
+      "\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\n<title>\nHello World\n</title>\n</head>\n<body>\n<h2>\nMenu para Gestionar el torneo GRAN SLAM- MENU\n</h2>\n".toCharArray();
       text[2] = 
       "\n".toCharArray();
       text[3] = 

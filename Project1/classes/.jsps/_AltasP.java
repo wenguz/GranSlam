@@ -65,7 +65,7 @@ public class _AltasP extends oracle.jsp.runtime.HttpJsp {
             /*@lineinfo:translated-code*//*@lineinfo:22^9*/            {
               org.apache.struts.taglib.bean.MessageTag __jsp_taghandler_2=(org.apache.struts.taglib.bean.MessageTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.MessageTag.class,"org.apache.struts.taglib.bean.MessageTag key");
               __jsp_taghandler_2.setParent(__jsp_taghandler_1);
-              __jsp_taghandler_2.setKey("altp.fecha");
+              __jsp_taghandler_2.setKey("altp.cod");
               __jsp_tag_starteval=__jsp_taghandler_2.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -81,7 +81,7 @@ public class _AltasP extends oracle.jsp.runtime.HttpJsp {
             /*@lineinfo:translated-code*//*@lineinfo:23^9*/            {
               org.apache.struts.taglib.html.TextTag __jsp_taghandler_3=(org.apache.struts.taglib.html.TextTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.TextTag.class,"org.apache.struts.taglib.html.TextTag property");
               __jsp_taghandler_3.setParent(__jsp_taghandler_1);
-              __jsp_taghandler_3.setProperty("fecha");
+              __jsp_taghandler_3.setProperty("cod_partido");
               __jsp_tag_starteval=__jsp_taghandler_3.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -99,7 +99,7 @@ public class _AltasP extends oracle.jsp.runtime.HttpJsp {
             /*@lineinfo:translated-code*//*@lineinfo:26^9*/            {
               org.apache.struts.taglib.bean.MessageTag __jsp_taghandler_4=(org.apache.struts.taglib.bean.MessageTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.MessageTag.class,"org.apache.struts.taglib.bean.MessageTag key");
               __jsp_taghandler_4.setParent(__jsp_taghandler_1);
-              __jsp_taghandler_4.setKey("altp.mod");
+              __jsp_taghandler_4.setKey("altp.fecha");
               __jsp_tag_starteval=__jsp_taghandler_4.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -115,7 +115,7 @@ public class _AltasP extends oracle.jsp.runtime.HttpJsp {
             /*@lineinfo:translated-code*//*@lineinfo:27^9*/            {
               org.apache.struts.taglib.html.TextTag __jsp_taghandler_5=(org.apache.struts.taglib.html.TextTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.TextTag.class,"org.apache.struts.taglib.html.TextTag property");
               __jsp_taghandler_5.setParent(__jsp_taghandler_1);
-              __jsp_taghandler_5.setProperty("modalidad");
+              __jsp_taghandler_5.setProperty("fecha");
               __jsp_tag_starteval=__jsp_taghandler_5.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -133,7 +133,7 @@ public class _AltasP extends oracle.jsp.runtime.HttpJsp {
             /*@lineinfo:translated-code*//*@lineinfo:30^9*/            {
               org.apache.struts.taglib.bean.MessageTag __jsp_taghandler_6=(org.apache.struts.taglib.bean.MessageTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.MessageTag.class,"org.apache.struts.taglib.bean.MessageTag key");
               __jsp_taghandler_6.setParent(__jsp_taghandler_1);
-              __jsp_taghandler_6.setKey("altp.gen");
+              __jsp_taghandler_6.setKey("altp.mod");
               __jsp_tag_starteval=__jsp_taghandler_6.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -149,7 +149,7 @@ public class _AltasP extends oracle.jsp.runtime.HttpJsp {
             /*@lineinfo:translated-code*//*@lineinfo:31^9*/            {
               org.apache.struts.taglib.html.TextTag __jsp_taghandler_7=(org.apache.struts.taglib.html.TextTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.TextTag.class,"org.apache.struts.taglib.html.TextTag property");
               __jsp_taghandler_7.setParent(__jsp_taghandler_1);
-              __jsp_taghandler_7.setProperty("gen_partido");
+              __jsp_taghandler_7.setProperty("modalidad");
               __jsp_tag_starteval=__jsp_taghandler_7.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -167,7 +167,7 @@ public class _AltasP extends oracle.jsp.runtime.HttpJsp {
             /*@lineinfo:translated-code*//*@lineinfo:34^9*/            {
               org.apache.struts.taglib.bean.MessageTag __jsp_taghandler_8=(org.apache.struts.taglib.bean.MessageTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.MessageTag.class,"org.apache.struts.taglib.bean.MessageTag key");
               __jsp_taghandler_8.setParent(__jsp_taghandler_1);
-              __jsp_taghandler_8.setKey("altp.arb");
+              __jsp_taghandler_8.setKey("altp.gen");
               __jsp_tag_starteval=__jsp_taghandler_8.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -183,7 +183,7 @@ public class _AltasP extends oracle.jsp.runtime.HttpJsp {
             /*@lineinfo:translated-code*//*@lineinfo:35^9*/            {
               org.apache.struts.taglib.html.TextTag __jsp_taghandler_9=(org.apache.struts.taglib.html.TextTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.TextTag.class,"org.apache.struts.taglib.html.TextTag property");
               __jsp_taghandler_9.setParent(__jsp_taghandler_1);
-              __jsp_taghandler_9.setProperty("nom_arbitro");
+              __jsp_taghandler_9.setProperty("gen_partido");
               __jsp_tag_starteval=__jsp_taghandler_9.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -201,7 +201,7 @@ public class _AltasP extends oracle.jsp.runtime.HttpJsp {
             /*@lineinfo:translated-code*//*@lineinfo:38^9*/            {
               org.apache.struts.taglib.bean.MessageTag __jsp_taghandler_10=(org.apache.struts.taglib.bean.MessageTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.MessageTag.class,"org.apache.struts.taglib.bean.MessageTag key");
               __jsp_taghandler_10.setParent(__jsp_taghandler_1);
-              __jsp_taghandler_10.setKey("altp.fase");
+              __jsp_taghandler_10.setKey("altp.arb");
               __jsp_tag_starteval=__jsp_taghandler_10.doStartTag();
               if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
@@ -217,7 +217,7 @@ public class _AltasP extends oracle.jsp.runtime.HttpJsp {
             /*@lineinfo:translated-code*//*@lineinfo:39^9*/            {
               org.apache.struts.taglib.html.TextTag __jsp_taghandler_11=(org.apache.struts.taglib.html.TextTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.TextTag.class,"org.apache.struts.taglib.html.TextTag property");
               __jsp_taghandler_11.setParent(__jsp_taghandler_1);
-              __jsp_taghandler_11.setProperty("fase_ar");
+              __jsp_taghandler_11.setProperty("nom_arbitro");
               __jsp_tag_starteval=__jsp_taghandler_11.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
@@ -232,17 +232,15 @@ public class _AltasP extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[14]);
-            /*@lineinfo:translated-code*//*@lineinfo:42^36*/            {
-              org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_12=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag value");
+            /*@lineinfo:translated-code*//*@lineinfo:42^9*/            {
+              org.apache.struts.taglib.bean.MessageTag __jsp_taghandler_12=(org.apache.struts.taglib.bean.MessageTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.MessageTag.class,"org.apache.struts.taglib.bean.MessageTag key");
               __jsp_taghandler_12.setParent(__jsp_taghandler_1);
-              __jsp_taghandler_12.setValue("Registrar");
+              __jsp_taghandler_12.setKey("altp.fase");
               __jsp_tag_starteval=__jsp_taghandler_12.doStartTag();
-              if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
+              if (OracleJspRuntime.checkStartTagEval(__jsp_tag_starteval))
               {
-                out=OracleJspRuntime.pushBodyIfNeeded(pageContext,__jsp_taghandler_12,__jsp_tag_starteval,out);
                 do {
                 } while (__jsp_taghandler_12.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
-                out=OracleJspRuntime.popBodyIfNeeded(pageContext,out);
               }
               if (__jsp_taghandler_12.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
                 return;
@@ -250,14 +248,50 @@ public class _AltasP extends oracle.jsp.runtime.HttpJsp {
             }
             /*@lineinfo:generated-code*/
             out.write(__jsp_StaticText.text[15]);
-          /*@lineinfo:translated-code*//*@lineinfo:42^69*/          } while (__jsp_taghandler_1.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
+            /*@lineinfo:translated-code*//*@lineinfo:43^9*/            {
+              org.apache.struts.taglib.html.TextTag __jsp_taghandler_13=(org.apache.struts.taglib.html.TextTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.TextTag.class,"org.apache.struts.taglib.html.TextTag property");
+              __jsp_taghandler_13.setParent(__jsp_taghandler_1);
+              __jsp_taghandler_13.setProperty("fase_ar");
+              __jsp_tag_starteval=__jsp_taghandler_13.doStartTag();
+              if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
+              {
+                out=OracleJspRuntime.pushBodyIfNeeded(pageContext,__jsp_taghandler_13,__jsp_tag_starteval,out);
+                do {
+                } while (__jsp_taghandler_13.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
+                out=OracleJspRuntime.popBodyIfNeeded(pageContext,out);
+              }
+              if (__jsp_taghandler_13.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
+                return;
+              OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_13);
+            }
+            /*@lineinfo:generated-code*/
+            out.write(__jsp_StaticText.text[16]);
+            /*@lineinfo:translated-code*//*@lineinfo:46^36*/            {
+              org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_14=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag value");
+              __jsp_taghandler_14.setParent(__jsp_taghandler_1);
+              __jsp_taghandler_14.setValue("Registrar");
+              __jsp_tag_starteval=__jsp_taghandler_14.doStartTag();
+              if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
+              {
+                out=OracleJspRuntime.pushBodyIfNeeded(pageContext,__jsp_taghandler_14,__jsp_tag_starteval,out);
+                do {
+                } while (__jsp_taghandler_14.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
+                out=OracleJspRuntime.popBodyIfNeeded(pageContext,out);
+              }
+              if (__jsp_taghandler_14.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
+                return;
+              OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_14);
+            }
+            /*@lineinfo:generated-code*/
+            out.write(__jsp_StaticText.text[17]);
+          /*@lineinfo:translated-code*//*@lineinfo:46^69*/          } while (__jsp_taghandler_1.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
         }
         if (__jsp_taghandler_1.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
           return;
         OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_1);
       }
       /*@lineinfo:generated-code*/
-      out.write(__jsp_StaticText.text[16]);
+      out.write(__jsp_StaticText.text[18]);
 
 
     }
@@ -276,7 +310,7 @@ public class _AltasP extends oracle.jsp.runtime.HttpJsp {
 
   }
   private static class __jsp_StaticText {
-    private static final char text[][]=new char[17][];
+    private static final char text[][]=new char[19][];
     static {
       try {
       text[0] = 
@@ -308,10 +342,14 @@ public class _AltasP extends oracle.jsp.runtime.HttpJsp {
       text[13] = 
       ":</td>\n    <td>".toCharArray();
       text[14] = 
-      "</td>\n</tr>\n<tr>\n    <td colspan=\"2\" align=\"center\">".toCharArray();
+      "</td>\n</tr>\n<tr>\n    <td>".toCharArray();
       text[15] = 
-      "</td>\n</tr>\n</table>\n".toCharArray();
+      ":</td>\n    <td>".toCharArray();
       text[16] = 
+      "</td>\n</tr>\n<tr>\n    <td colspan=\"2\" align=\"center\">".toCharArray();
+      text[17] = 
+      "</td>\n</tr>\n</table>\n".toCharArray();
+      text[18] = 
       "\n</body>\n</html>\n".toCharArray();
       }
       catch (Throwable th) {

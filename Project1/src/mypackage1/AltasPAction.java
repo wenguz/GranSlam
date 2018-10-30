@@ -30,12 +30,13 @@ public class AltasPAction extends Action
   {
       AltasPForm a = (AltasPForm)form;
     int lugar=1;
-    int codigo=62;
+   // int codigo=62;
     String fecha = a.getFecha();
     String modalidad = a.getModalidad();
     String gen = a.getGen_partido();
     String nom = a.getNom_arbitro();
     String fase = a.getFase_ar();
+    String cod=a.getCod_partido();
 
     //fechita = ParseFecha(fecha);
 
@@ -46,7 +47,7 @@ public class AltasPAction extends Action
        try
        {
          cn = conn.conexion;
-         String cadena = "insert into t_partido values ("+codigo+","+fase+","+modalidad+","+nom+","+gen+","+lugar+",to_date('"+fecha+"','YYYY/MM/DD'))";
+         String cadena = "insert into t_partido values ("+cod+","+fase+","+modalidad+","+nom+","+gen+","+lugar+",to_date('"+fecha+"','YYYY/MM/DD'))";
 
          
          System.out.println(cadena);

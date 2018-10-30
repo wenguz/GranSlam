@@ -12,6 +12,7 @@ public class AltasPForm extends ActionForm
   String gen_partido;
   String nom_arbitro;
   String fase_ar;
+  String cod_partido;
 
   public void reset(ActionMapping mapping, HttpServletRequest request)
   {
@@ -77,5 +78,15 @@ public class AltasPForm extends ActionForm
   public void setFase_ar(String newFase_ar)
   {
     fase_ar = newFase_ar;
+  }
+
+  public String getCod_partido()
+  {
+    return cod_partido;
+  }
+
+  public void setCod_partido(String newCod_partido)
+  {
+    cod_partido = newCod_partido;
   }
 }

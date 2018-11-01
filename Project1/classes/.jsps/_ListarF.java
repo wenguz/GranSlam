@@ -7,7 +7,7 @@ import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
 
-public class _ListarF extends oracle.jsp.runtime.HttpJsp {
+public class _ListarF extends com.orionserver.http.OrionHttpJspPage {
 
   public final String _globalsClassName = null;
 
@@ -30,28 +30,24 @@ public class _ListarF extends oracle.jsp.runtime.HttpJsp {
     PageContext pageContext = JspFactory.getDefaultFactory().getPageContext( this, request, response, null, true, JspWriter.DEFAULT_BUFFER, true);
     // Note: this is not emitted if the session directive == false
     HttpSession session = pageContext.getSession();
-    if (pageContext.getAttribute(OracleJspRuntime.JSP_REQUEST_REDIRECTED, PageContext.REQUEST_SCOPE) != null) {
-      pageContext.setAttribute(OracleJspRuntime.JSP_PAGE_DONTNOTIFY, "true", PageContext.PAGE_SCOPE);
-      JspFactory.getDefaultFactory().releasePageContext(pageContext);
-      return;
-}
     int __jsp_tag_starteval;
     ServletContext application = pageContext.getServletContext();
     JspWriter out = pageContext.getOut();
     _ListarF page = this;
     ServletConfig config = pageContext.getServletConfig();
 
+    com.evermind.server.http.JspCommonExtraWriter __ojsp_s_out = (com.evermind.server.http.JspCommonExtraWriter) out;
     try {
       // global beans
       // end global beans
 
 
-      out.write(__jsp_StaticText.text[0]);
-      out.write(__jsp_StaticText.text[1]);
-      out.write(__jsp_StaticText.text[2]);
+      __ojsp_s_out.write(__jsp_StaticText.text[0]);
+      __ojsp_s_out.write(__jsp_StaticText.text[1]);
+      __ojsp_s_out.write(__jsp_StaticText.text[2]);
       /*@lineinfo:user-code*//*@lineinfo:15^9*/      out.print( session.getAttribute("ini.usu"));
       /*@lineinfo:generated-code*/
-      out.write(__jsp_StaticText.text[3]);
+      __ojsp_s_out.write(__jsp_StaticText.text[3]);
       /*@lineinfo:translated-code*//*@lineinfo:24^3*/      {
         org.apache.struts.taglib.logic.IterateTag __jsp_taghandler_1=(org.apache.struts.taglib.logic.IterateTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.logic.IterateTag.class,"org.apache.struts.taglib.logic.IterateTag id indexId name property");
         __jsp_taghandler_1.setParent(null);
@@ -65,11 +61,12 @@ public class _ListarF extends oracle.jsp.runtime.HttpJsp {
         if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
         {
           out=OracleJspRuntime.pushBodyIfNeeded(pageContext,__jsp_taghandler_1,__jsp_tag_starteval,out);
+          __ojsp_s_out = (com.evermind.server.http.JspCommonExtraWriter) out;
           do {
             tabla = (java.lang.Object) pageContext.findAttribute("tabla");
             index = (java.lang.Integer) pageContext.findAttribute("index");
             /*@lineinfo:generated-code*/
-            out.write(__jsp_StaticText.text[4]);
+            __ojsp_s_out.write(__jsp_StaticText.text[4]);
             /*@lineinfo:translated-code*//*@lineinfo:26^13*/            {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_2=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_2.setParent(__jsp_taghandler_1);
@@ -86,7 +83,7 @@ public class _ListarF extends oracle.jsp.runtime.HttpJsp {
               OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_2);
             }
             /*@lineinfo:generated-code*/
-            out.write(__jsp_StaticText.text[5]);
+            __ojsp_s_out.write(__jsp_StaticText.text[5]);
             /*@lineinfo:translated-code*//*@lineinfo:27^13*/            {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_3=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_3.setParent(__jsp_taghandler_1);
@@ -103,7 +100,7 @@ public class _ListarF extends oracle.jsp.runtime.HttpJsp {
               OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_3);
             }
             /*@lineinfo:generated-code*/
-            out.write(__jsp_StaticText.text[6]);
+            __ojsp_s_out.write(__jsp_StaticText.text[6]);
             /*@lineinfo:translated-code*//*@lineinfo:28^13*/            {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_4=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_4.setParent(__jsp_taghandler_1);
@@ -120,7 +117,7 @@ public class _ListarF extends oracle.jsp.runtime.HttpJsp {
               OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_4);
             }
             /*@lineinfo:generated-code*/
-            out.write(__jsp_StaticText.text[7]);
+            __ojsp_s_out.write(__jsp_StaticText.text[7]);
             /*@lineinfo:translated-code*//*@lineinfo:29^13*/            {
               org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_5=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
               __jsp_taghandler_5.setParent(__jsp_taghandler_1);
@@ -137,16 +134,17 @@ public class _ListarF extends oracle.jsp.runtime.HttpJsp {
               OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_5);
             }
             /*@lineinfo:generated-code*/
-            out.write(__jsp_StaticText.text[8]);
+            __ojsp_s_out.write(__jsp_StaticText.text[8]);
           /*@lineinfo:translated-code*//*@lineinfo:29^60*/          } while (__jsp_taghandler_1.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
           out=OracleJspRuntime.popBodyIfNeeded(pageContext,out);
+          __ojsp_s_out = (com.evermind.server.http.JspCommonExtraWriter) out;
         }
         if (__jsp_taghandler_1.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
           return;
         OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_1);
       }
       /*@lineinfo:generated-code*/
-      out.write(__jsp_StaticText.text[9]);
+      __ojsp_s_out.write(__jsp_StaticText.text[9]);
 
 
     }
@@ -165,29 +163,29 @@ public class _ListarF extends oracle.jsp.runtime.HttpJsp {
 
   }
   private static class __jsp_StaticText {
-    private static final char text[][]=new char[10][];
+    private static final byte text[][]=new byte[10][];
     static {
       try {
       text[0] = 
-      "\n".toCharArray();
+      "\r\n".getBytes("Cp1252");
       text[1] = 
-      "\n".toCharArray();
+      "\r\n".getBytes("Cp1252");
       text[2] = 
-      "\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\n<title>\nListar Fase\n</title>\n</head>\n<body>\n<h2>\nListado de Fase\n</h2>\nUSUARIO:".toCharArray();
+      "\r\n<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\r\n<title>\r\nListar Fase\r\n</title>\r\n</head>\r\n<body>\r\n<h2>\r\nListado de Fase\r\n</h2>\r\nUSUARIO:".getBytes("Cp1252");
       text[3] = 
-      "\n\n  <table  cellspacing=\"2\" cellpadding=\"1\" border=\"1\" width=\"100%\" align=\"center\">\n  <tr>\n      <td><b>CODIGO</b></td>\n      <td><b>NOMBRE DE LA FASE</b></td>\n      <td><b>PREMIO GANADOR</b></td>\n      <td><b>PREMIO CONSUELO</b></td>\n  </tr>\n  ".toCharArray();
+      "\r\n\r\n  <table  cellspacing=\"2\" cellpadding=\"1\" border=\"1\" width=\"100%\" align=\"center\">\r\n  <tr>\r\n      <td><b>CODIGO</b></td>\r\n      <td><b>NOMBRE DE LA FASE</b></td>\r\n      <td><b>PREMIO GANADOR</b></td>\r\n      <td><b>PREMIO CONSUELO</b></td>\r\n  </tr>\r\n  ".getBytes("Cp1252");
       text[4] = 
-      "\n    <tr>\n        <td>".toCharArray();
+      "\r\n    <tr>\r\n        <td>".getBytes("Cp1252");
       text[5] = 
-      "</td>\n        <td>".toCharArray();
+      "</td>\r\n        <td>".getBytes("Cp1252");
       text[6] = 
-      "</td>\n        <td>".toCharArray();
+      "</td>\r\n        <td>".getBytes("Cp1252");
       text[7] = 
-      "</td>\n        <td>".toCharArray();
+      "</td>\r\n        <td>".getBytes("Cp1252");
       text[8] = 
-      "</td>\n    </tr>\n  ".toCharArray();
+      "</td>\r\n    </tr>\r\n  ".getBytes("Cp1252");
       text[9] = 
-      "\n  </table>\n\n</body>\n</html>\n".toCharArray();
+      "\r\n  </table>\r\n\r\n</body>\r\n</html>\r\n".getBytes("Cp1252");
       }
       catch (Throwable th) {
         System.err.println(th);
